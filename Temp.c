@@ -2,10 +2,11 @@ void main()
 {
 	float F,C;
 	
-	F= (C*9/5)+32;
 	printf("Enter the value of C: ");
-	scanf("%f",&F);
+	scanf("%f",&C);
 	
-	printf("%f",F);
+	F= (C*9/5)+32;
+	
+	printf("%f\n",F);
 	return 0;
 }
